@@ -1,26 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import {ProjectListScreen} from "./screens/project-list";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        {/*测试 git 提交*/}
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProjectListScreen />
     </div>
   );
 }
